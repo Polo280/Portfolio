@@ -60,7 +60,7 @@ const Projects = () => {
 
   
   return (
-    <section id="projects">
+    <section id="works">
       <div className="flex w-full flex-col gap-[5px] bg-black px-[100px] lg:pb-[20px] lg:pt-[20px]">
         <h2 className="w-full text-[35px] font-bold text-white">Experience</h2>
         {/* <p className="text-zinc-400 text-[17px] w-[700px] mt-[5px]">The best way to master something is through practice and errors. These projects helped me to build
