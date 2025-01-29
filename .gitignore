@@ -47,5 +47,3 @@ dist/
 # Other 
 eslint.cache
 .prettierrc
-# Tailwind
-postcss.config.js

@@ -10,7 +10,7 @@ const Projects = () => {
         "An efficient Electric Vehicle made for Shell Eco Marathon competition",
       date: "",
       tags: ["BLDC Driver", "Telemetry", "PCB Design"],
-      href: "#elyos",
+      href: "#/elyos",
       class_aux: "",
     },
     {
@@ -129,7 +129,7 @@ const Projects = () => {
         </div> */}
 
         <div className="flex w-full items-center lg:mt-[50px] lg:h-[50px]">
-          <a href="/projects">
+          <a href="#/projects">
           <button 
             className="bg-emerald-950 text-emerald-300 transition-colors duration-300 hover:bg-emerald-500 hover:text-white lg:mt-[10px] lg:rounded-3xl lg:px-[28px] lg:py-[15px] lg:text-[18px]">
               View All Projects{" "}

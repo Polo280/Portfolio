@@ -9,13 +9,13 @@ const About = () => {
             interested in working in problems on different areas to expand my
             solving skills and understanding of the world. Currently I'm
             interested in electronic design, embedded systems, deep learning and
-            control modelling.
+            control theory.
           </p>
 
           {/* Buttons CVs */}
           <div className="mt-[25px] flex w-full flex-row items-center gap-[50px]">
             <a
-              href="/Jorge_Gonzalez_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Jorge_Gonzalez_Resume.pdf`}
               target="_blank"
               //download="Jorge_Gonzalez_Resume.pdf"
               className=""
@@ -26,7 +26,7 @@ const About = () => {
               </button>
             </a>
             <a
-              href="/Jorge_Gonzalez_Resume_SW.pdf"
+              href={`${import.meta.env.BASE_URL}Jorge_Gonzalez_Resume_SW.pdf`}
               target="_blank"
               //download="Jorge_Gonzalez_Resume.pdf"
               className=""
