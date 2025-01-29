@@ -45,7 +45,6 @@ Thumbs.db
 # Dist folder 
 dist/
 # Other 
-.github/
 eslint.cache
 .prettierrc
 # Tailwind
