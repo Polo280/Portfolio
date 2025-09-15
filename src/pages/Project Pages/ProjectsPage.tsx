@@ -5,6 +5,16 @@ import BottomBar from '../../components/BottomBar';
 const ProjectsPage = () => {
   const team_works = [
     {
+      title: "INTEL Corp.",
+      imgSrc: "./IntelServer.jpg",
+      description:
+        "One year Intership in Intel Signal Integrity Dept, server focused - Intel XEON",
+      date: "",
+      tags: ["Cadence Allegro", "Python", "Solidworks"],
+      href: "#/intelcorp",
+      class_aux: "",
+    },
+    {
       title: "ELYOS",
       imgSrc: "./elyos.jpeg",
       description:

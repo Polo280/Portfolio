@@ -1,7 +1,10 @@
+import ScrollToTop from "../../components/ScrollToTop";
+
 
 const Elyos = () => {
   return (
     <div className="flex w-full flex-col gap-[10px] bg-zinc-900  lg:px-[180px] lg:py-[110px]">
+      <ScrollToTop/>
       <h1 className="text-[35px] font-bold text-white">Elyos Project</h1>
 
       <p className="text-[17px] text-zinc-400">

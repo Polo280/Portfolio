@@ -1,10 +1,11 @@
-
+import ScrollToTop from "../../components/ScrollToTop";
 import BottomBar from "../../components/BottomBar";
 
 const Horus = () => {
   return (
     <>
       <div className="flex w-full flex-col gap-[10px] bg-black lg:px-[180px] lg:py-[110px]">
+        <ScrollToTop/>
         <h1 className="text-[35px] font-bold text-white">FRC #6348 - Horus</h1>
 
         <p className="text-[17px] text-zinc-400">

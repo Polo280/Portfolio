@@ -35,7 +35,7 @@ const Contact = () => {
       )
     },
     {
-      href: "https://www.instagram.com/geor.glez",
+      href: "https://www.instagram.com/jorsh287",
       icon: (
         <svg
           width="35"

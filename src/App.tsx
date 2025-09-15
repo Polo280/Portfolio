@@ -9,12 +9,14 @@ import Elyos from './pages/Project Pages/Elyos';
 import Horus from './pages/Project Pages/Horus';
 import Telemetry from './pages/Project Pages/Telemetry';
 import ScorchFinder from "./pages/Project Pages/ScorchFinder";
+import Intel from "./pages/Project Pages/Intel";
 
 function App() {
 
   return (
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/intelcorp" element={<Intel />} />
         <Route path="/elyos" element={<Elyos />} />
         <Route path="/horus" element={<Horus />} />
         <Route path="/telemetry" element={<Telemetry />}/>

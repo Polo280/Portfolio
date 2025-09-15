@@ -22,7 +22,7 @@ body {
 }
 
 .blog-text {
-  @apply text-[18px] leading-8 text-zinc-400 lg:mt-[15px];
+  @apply lg:text-[20px] leading-8 text-zinc-400 lg:mt-[15px];
 }
 
 .highlight {
