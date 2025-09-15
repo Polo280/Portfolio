@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="w-full bg-black px-[100px] lg:pb-[70px] lg:pt-[40px]">
-        <h2 className="lg:text-[55px] text-white">Toolbox</h2>
+        <h2 className="lg:text-[50px] text-white">Toolbox</h2>
         {/* <div className="h-[1px] w-full bg-zinc-600 lg:mt-[10px]"></div> */}
 
         <p className="mt-[30px] flex w-full justify-center">

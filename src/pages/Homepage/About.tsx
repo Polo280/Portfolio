@@ -3,7 +3,7 @@ const About = () => {
     <section id="about">
       <div className="flex w-full flex-row gap-[60px] bg-black px-[120px] lg:h-[750px]">
         <div className="flex h-full w-full flex-col items-center gap-2 lg:pt-[120px]">
-          <h2 className="w-full lg:text-[55px] text-white">About Me</h2>
+          <h2 className="w-full lg:text-[50px] text-white">About Me</h2>
           <p className="w-full lg:text-[20px] leading-loose text-zinc-300 text-justify">
             I'm Jorge, currently majoring in Robotics and Digital Systems looking to increase my understanding 
             about the world and life. I like to learn and challenge myself by building working solutions for problems 
@@ -24,7 +24,7 @@ const About = () => {
               className=""
             >
               <button className="flex lg:h-[80px] lg:w-[200px] flex-row items-center gap-[5px] rounded-lg bg-emerald-950 px-[10px] py-[10px] text-[17px]
-                               text-emerald-300 transition-colors duration-300 hover:bg-emerald-500 hover:text-white
+                               text-white transition-colors duration-300 hover:bg-emerald-500 hover:text-white
                                border-zinc-400 border-2 lg:text-[20px] justify-center">
                 <span className="material-symbols-rounded">description</span>{" "}
                 Hardware CV
@@ -37,7 +37,7 @@ const About = () => {
               className=""
             >
               <button className="flex lg:h-[80px] lg:w-[200px] flex-row items-center gap-[5px] rounded-lg bg-blue-950 
-                                px-[10px] py-[10px] lg:text-[20px] text-blue-300 transition-colors duration-300 hover:bg-blue-500
+                                px-[10px] py-[10px] lg:text-[20px] text-white transition-colors duration-300 hover:bg-blue-500
                                 hover:text-white border-zinc-400 border-2 justify-center">
                 {" "}
                 <span className="material-symbols-rounded">
